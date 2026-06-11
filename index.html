@@ -1,83 +1,260 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Suhas | Backend Engineer</title>
-  <link rel="stylesheet" href="style.css"/>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Suhas Girish, Backend Software Engineer specializing in FastAPI, PostgreSQL, Redis, Kubernetes, and AI/ML integration."
+    />
+    <title>Suhas Girish | Backend Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <canvas id="signalCanvas" aria-hidden="true"></canvas>
 
-  <header>
-    <h1>Suhas</h1>
-    <p>Backend Engineer</p>
-    <div class="links">
-      <a href="https://github.com/acreatorwithvision?tab=overview&from=2026-01-01&to=2026-01-27" target="_blank">GitHub</a>
-      <a href="https://www.linkedin.com/in/suhas-g-7216b9201/" target="_blank">LinkedIn</a>
-      <a href="mailto:suhasg.work@gmail.com">Email</a>
-    </div>
-  </header>
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="Suhas Girish home">
+        <span>SG</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#experience">Experience</a>
+        <a href="#impact">Impact</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="header-action" href="assets/Suhas_G_Resume.pdf" download>Resume</a>
+    </header>
 
-  <section>
-    <h2>About</h2>
-    <p>
-      Python Backend Engineer with 3 years of experience building scalable FastAPI microservices, async APIs, and Redis-backed systems for high-concurrency applications. 
-      Hands-on with LLM integration, RAG pipelines, and vector search. Focused on low-latency backend systems and production deployments using Docker and Kubernetes.
-    </p>
-  </section>
+    <main id="top">
+      <section class="hero section-shell">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Backend Software Engineer</p>
+          <h1>Suhas Girish</h1>
+          <p class="hero-lede">
+            I build fast, reliable backend systems for vehicle diagnostics, ML inference,
+            and high-throughput engineering platforms.
+          </p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button primary" href="mailto:suhas675g@gmail.com">Contact me</a>
+            <a class="button secondary" href="https://github.com/acreatorwithvision" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="button secondary" href="https://linkedin.com/in/suhasgirishp/" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+        </div>
 
-  <section>
-    <h2>Skills</h2>
-    <div class="chips">
-      <span>Python</span>
-      <span>FastAPI</span>
-      <span>Pytorch</span>
-      <span>LLM Integration</span>
-      <span>RAG</span>
-      <span>FAISS</span>
-      <span>Java</span>
-      <span>Spring Boot</span>
-      <span>Microservices</span>
-      <span>REST APIs</span>
-      <span>GraphQL</span>
-      <span>MySQL</span>
-      <span>PostgreSQL</span>
-      <span>Redis</span>
-      <span>Kafka</span>
-      <span>Docker</span>
-      <span>AWS</span>
-    </div>
-  </section>
+        <div class="hero-panel reveal" aria-label="Selected engineering metrics">
+          <div class="status-line">
+            <span class="pulse"></span>
+            Available for backend, platform, and AI integration roles
+          </div>
+          <div class="metric-grid">
+            <article>
+              <strong>50%</strong>
+              <span>P99 API latency reduction</span>
+            </article>
+            <article>
+              <strong>60%</strong>
+              <span>PostgreSQL query time reduction</span>
+            </article>
+            <article>
+              <strong>2M+</strong>
+              <span>Monthly ML inference requests</span>
+            </article>
+            <article>
+              <strong>10K+</strong>
+              <span>Connected vehicles supported</span>
+            </article>
+          </div>
+        </div>
+      </section>
 
-  <section>
-    <h2>Projects</h2>
+      <section class="intro-band">
+        <div class="section-shell intro-grid">
+          <p class="section-kicker">About</p>
+          <p>
+            Three years at Mercedes-Benz RDI building FastAPI microservices,
+            diagnostic orchestration APIs, Redis-backed performance layers, and AI-assisted
+            workflows for engineering teams across Germany and India.
+          </p>
+        </div>
+      </section>
 
-    <div class="project">
-      <h3>Production-Grade RAG Knowledge Assistant</h3>
-      <p>Internal company knowledge assistant with vector search, embeddings, and fast retrieval APIs.</p>
-      <a href="https://github.com/yourusername/project1" target="_blank">View on GitHub →</a>
-    </div>
+      <section class="section-shell split-section" id="experience">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Experience</p>
+          <h2>Shipping production systems where performance is the product.</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-date">Aug 2025 - Present</div>
+            <div class="timeline-content">
+              <h3>Backend Engineer</h3>
+              <p class="company">Mercedes-Benz RDI</p>
+              <ul>
+                <li>Built FastAPI microservices for a Vehicle Diagnostic Platform used by five engineering teams.</li>
+                <li>Cut P99 latency from 800ms to 400ms with async request handling and Redis caching.</li>
+                <li>Integrated OpenAI GPT-4 for automated diagnostic summaries, reducing review time by 35%.</li>
+                <li>Stabilized peak-load traffic with Redis distributed locking and cache warming.</li>
+              </ul>
+            </div>
+          </article>
 
-    <div class="project">
-      <h3>Real-time ADAS Sensor Fusion Service</h3>
-      <p>High-throughput WebFlux microservice handling LiDAR and camera streams with optimized latency.</p>
-      <a href="https://github.com/yourusername/project2" target="_blank">View on GitHub →</a>
-    </div>
+          <article class="timeline-item reveal">
+            <div class="timeline-date">Aug 2023 - Aug 2025</div>
+            <div class="timeline-content">
+              <h3>Graduate Engineer Trainee</h3>
+              <p class="company">Mercedes-Benz RDI</p>
+              <ul>
+                <li>Developed orchestration APIs processing 50GB+ of vehicle telemetry weekly.</li>
+                <li>Connected FastAPI services with TensorFlow Serving for 2M+ monthly requests under 500ms.</li>
+                <li>Reduced PostgreSQL load by 40% through Redis caching and service profiling.</li>
+                <li>Integrated Java legacy systems with Python microservices using REST APIs and RabbitMQ.</li>
+              </ul>
+            </div>
+          </article>
 
-  </section>
+          <article class="timeline-item reveal">
+            <div class="timeline-date">Jan 2023 - Jun 2023</div>
+            <div class="timeline-content">
+              <h3>Software Developer Intern</h3>
+              <p class="company">Mercedes-Benz RDI</p>
+              <ul>
+                <li>Built FastAPI ingestion endpoints for 10K+ diagnostic records per day.</li>
+                <li>Integrated fine-tuned BERT models with async batching for multilingual diagnostics.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
 
-  <section>
-    <h2>Experience</h2>
-    <div class="project">
-      <h3>Mercedes-Benz R&D India</h3>
-      <p>Backend Developer — Built JVM microservices for real-time data processing and scalable APIs.</p>
-    </div>
-  </section>
+      <section class="impact-section" id="impact">
+        <div class="section-shell">
+          <div class="section-heading reveal">
+            <p class="section-kicker">Selected Work</p>
+            <h2>Systems that stay fast when the data, traffic, and expectations grow.</h2>
+          </div>
+          <div class="case-grid">
+            <article class="case-card reveal">
+              <span>01</span>
+              <h3>Diagnostic Summarization Engine</h3>
+              <p>
+                OpenAI-powered workflow that converts raw diagnostic context into engineer-ready summaries,
+                cutting manual review time by 35%.
+              </p>
+              <div class="tag-row">
+                <span>OpenAI API</span>
+                <span>FastAPI</span>
+                <span>Async IO</span>
+              </div>
+            </article>
+            <article class="case-card reveal">
+              <span>02</span>
+              <h3>Telemetry Orchestration APIs</h3>
+              <p>
+                Backend services processing 50GB+ weekly telemetry from 10K+ vehicles for predictive
+                maintenance and analytics workflows.
+              </p>
+              <div class="tag-row">
+                <span>PostgreSQL</span>
+                <span>RabbitMQ</span>
+                <span>Docker</span>
+              </div>
+            </article>
+            <article class="case-card reveal">
+              <span>03</span>
+              <h3>Low-Latency ML Inference Layer</h3>
+              <p>
+                FastAPI integration with TensorFlow Serving and BERT inference pipelines supporting
+                millions of requests with predictable latency.
+              </p>
+              <div class="tag-row">
+                <span>TensorFlow Serving</span>
+                <span>BERT</span>
+                <span>Redis</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
 
-  <footer>
-    <p>© <span id="year"></span> Suhas. Built with HTML/CSS/JS.</p>
-  </footer>
+      <section class="section-shell skills-section" id="skills">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Skills</p>
+          <h2>Backend depth with just enough frontend to make the systems visible.</h2>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-group reveal">
+            <h3>Backend</h3>
+            <p>Python, FastAPI, REST APIs, microservices, async programming, Kafka, RabbitMQ</p>
+          </article>
+          <article class="skill-group reveal">
+            <h3>Data</h3>
+            <p>PostgreSQL indexing, partitioning, query profiling, Redis caching, distributed locking</p>
+          </article>
+          <article class="skill-group reveal">
+            <h3>AI/ML</h3>
+            <p>OpenAI API, TensorFlow Serving, BERT, ML inference pipelines, request batching</p>
+          </article>
+          <article class="skill-group reveal">
+            <h3>Platform</h3>
+            <p>Docker, Kubernetes deployments, AWS, GitHub Actions, Grafana, CI/CD</p>
+          </article>
+          <article class="skill-group reveal">
+            <h3>Quality</h3>
+            <p>PyTest, unit tests, integration tests, API testing, mocks, fixtures</p>
+          </article>
+          <article class="skill-group reveal">
+            <h3>Frontend</h3>
+            <p>React.js dashboards, internal tooling, diagnostic monitoring interfaces</p>
+          </article>
+        </div>
+      </section>
 
-<script src="script.js"></script>
-</body>
+      <section class="education-band">
+        <div class="section-shell education-content reveal">
+          <p class="section-kicker">Education</p>
+          <h2>B.E. Computer Science</h2>
+          <p>JSS Science and Technological University, Mysore - 2019 to 2023</p>
+        </div>
+      </section>
+
+      <section class="section-shell contact-section" id="contact">
+        <div class="contact-copy reveal">
+          <p class="section-kicker">Contact</p>
+          <h2>Let's build the backend that makes the product feel instant.</h2>
+          <p>
+            I'm interested in backend engineering, platform reliability, applied AI systems,
+            and data-heavy product infrastructure.
+          </p>
+        </div>
+        <div class="contact-actions reveal">
+          <a class="contact-link" href="mailto:suhas675g@gmail.com">
+            <span>Email</span>
+            <strong>suhas675g@gmail.com</strong>
+          </a>
+          <a class="contact-link" href="tel:+918073409450">
+            <span>Phone</span>
+            <strong>+91 80734 09450</strong>
+          </a>
+          <a class="contact-link" href="assets/Suhas_G_Resume.pdf" download>
+            <span>Resume</span>
+            <strong>Download PDF</strong>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Suhas Girish</span>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
